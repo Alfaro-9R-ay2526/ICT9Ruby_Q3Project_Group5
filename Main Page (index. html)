@@ -20,6 +20,20 @@
             <button class="btn btn-info" type="button">Create Account</button>
       </form>
     </header>  
+
+<!--MAIN CONTENT-->
+    <div class="container my-5">
+        <h2>How to Book a Ride</h2>
+        <ol>
+            <li>Go to the website.</li>
+            <li>Pick your pick-up station and destination.</li>
+            <li>Check the fare using the calculator.</li>
+            <li>If you’re a Senior, PWD, or Student, select your discount.</li>
+            <li>Click confirm to book your ride.</li>
+            <li>Wait for your motor or taxi to arrive.</li>
+        </ol>
+    </div>
+
 <!--FOOTER-->
             <footer class="bg-dark text-white fixed-bottom text-center">
                 <p>Alfaro, Allas, Catimbang, Esguerra, Valdez</p>
