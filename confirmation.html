@@ -90,18 +90,30 @@ footer{
 
 <body>
     <!--HEADER-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    
     <header class="navbar navbar-expand-md navbar-dark bg-dark">
          <div class="container-fluid">
              <a class="navbar-brand" href="javascript:void(0)">Com5</a>
         </div>
+     
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <form class="d-flex">
-        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
-            <button class="btn btn-info" type="button">Create Account</button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                 <li class="nav-item"><a class="nav-link" href="Main Page.html" target="_self">Home</a></li>
+                <li class="nav-item"> <a class="nav-link" href="registration.html" target="_self">Registration</a> </li>
+            </ul>
+            <form class="d-flex">
+                <button class="btn btn-info" type="button">Create Account</button>
+            </form>
+        </div>
+    </nav>
       </form>
     </header>  
-
-
 
 <!--FOOTER-->
             <footer class="bg-dark text-white fixed-bottom text-center">
