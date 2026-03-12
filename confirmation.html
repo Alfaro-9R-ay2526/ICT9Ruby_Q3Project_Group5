@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body{
+    height:100vh;
+    background: no-repeat center center/cover;
+    display:flex;
+    flex-direction:column;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 40px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+nav ul li{
+    cursor:pointer;
+}
+
+.nav-right button{
+    padding:6px 12px;
+    border:none;
+    border-radius:4px;
+    background:#0044ff;
+    color:white;
+    cursor:pointer;
+}
+
+/* Center message */
+.container{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.message-box{
+    background:rgba(29, 100, 255, 0.9);
+    padding:30px 40px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.message-box h2{
+    margin-bottom:10px;
+}
+
+.message-box a{
+    color:blue;
+    text-decoration:underline;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:10px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="navbar navbar-expand-md navbar-dark bg-dark">
+         <div class="container-fluid">
+             <a class="navbar-brand" href="javascript:void(0)">Com5</a>
+        </div>
+
+        <form class="d-flex">
+        <!-- <input class="form-control me-2" type="text" placeholder="Search"> -->
+            <button class="btn btn-info" type="button">Create Account</button>
+      </form>
+    </header>  
+
+
+<div class="container">
+    <div class="message-box">
+        <h2>Your account has been created.</h2>
+        <p>Click here to verify your email</p>
+        <a href="#">Verify Email</a>
+    </div>
+</div>
+<!--FOOTER-->
+            <footer class="bg-dark text-white fixed-bottom text-center">
+                <p>Alfaro, Allas, Catimbang, Esguerra, Valdez</p>
+            </footer>
+
+     <script src="main.js"></script>
+</body>
+</html>
